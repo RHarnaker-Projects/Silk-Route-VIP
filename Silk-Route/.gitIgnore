@@ -37,3 +37,5 @@ desktop.ini
 # Cloudflare Workers (if you're deploying `worker/` with Wrangler)
 .wrangler/
 .dev.vars
+
+.package-lock.json
