@@ -1,0 +1,422 @@
+{
+  "project": "Silk Route",
+  "prepared_date": "2026-09-30",
+  "scope": "source, current runtime media, existing README/provenance and handover documentation",
+  "hash_algorithm": "SHA-256",
+  "manifest_self_entries_excluded": true,
+  "file_count_excluding_manifests": 67,
+  "bytes_excluding_manifests": 23397928,
+  "checks": {
+    "clean_dependency_install": "passed",
+    "site_checks": "passed: 9 pages",
+    "analytics_tests": "passed: 3/3",
+    "static_build": "passed",
+    "sites_build": "passed",
+    "runtime_asset_references": "passed: 13/13 plus SVG mark for site checks"
+  },
+  "raw_historical_media_files_excluded": 259,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 778,
+      "sha256": "76b632ac4e2c4b31ff42478251f5533d7ef6d17f07e7562e7ef844ebebd05dac",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 63,
+      "sha256": "860fea96554ea0b61131df8d4b7fa3f295e92e4ec90433be2246894e647688ec",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "LAUNCH_LEGAL_CHECKLIST.md",
+      "bytes": 1797,
+      "sha256": "4eadb924459820ae8400472f0b94e2adcb563e16f1d788d9ee9e4eb206fc16ca",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4312,
+      "sha256": "7a11c0a8327c7896099eb8ca72fb7a98ef701c3baec5b250729c1b2af64585cb",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1298,
+      "sha256": "6ccd2f852ca8c189dc7abd383c2e6ef150dc27ad0e5cd9ca32c5ced7ba1031ab",
+      "origin": "generated handover documentation"
+    },
+    {
+      "path": "accessibility.html",
+      "bytes": 6222,
+      "sha256": "9bff5ce88abb4fb57ee226a5ae9012783fa33dbd94cbab4d19ea94bc2d3c1fa8",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "analytics.js",
+      "bytes": 3791,
+      "sha256": "364cbbb230da4502a161b1d17e474d3f865a239b806593a26e4ea30263933e61",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/icons/favicon.svg",
+      "bytes": 3217,
+      "sha256": "9d1567f39341679a835265c366e86c2f1b543103fd8e10e24fc23c147eb8969f",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/icons/silk-route-horizontal.svg",
+      "bytes": 3930,
+      "sha256": "1a5ceee5d802c395412fb608b236fc6c9972a88f5df2c3224ac6ddf7ffbe35aa",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/icons/silk-route-lockup.svg",
+      "bytes": 3936,
+      "sha256": "bab87ece105de1169396254cd8ea4b634f0252e0b8c010bd475332ccf03aa44b",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/icons/silk-route-mark.svg",
+      "bytes": 3370,
+      "sha256": "9e091acd3bc63332d596e67ee19f54c52e2f0c8f54b14eb0f221fccb83a0fc92",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/images/v300-cabin.webp",
+      "bytes": 123498,
+      "sha256": "ee1a2b3dc375236fc1f7986dfdab54ba65da6f35f0013ed4eeef79db7108c7d9",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/images/v300-chauffeur.webp",
+      "bytes": 297548,
+      "sha256": "7b638e667f4a4e937308bb625bbb1f8d95c04e0f2c402c5418122a56c22104ae",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/images/v300-cockpit.webp",
+      "bytes": 107466,
+      "sha256": "206ac2659177174bf7454ad6cafe05f3f2ae8af48888b512ad643dfa329aa883",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/images/v300-detail.webp",
+      "bytes": 198818,
+      "sha256": "bfbf7f6417a42f63fbc2e6349d3b08871286780b8b41f4cd9880c17814582dc0",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/images/v300-exterior.webp",
+      "bytes": 522658,
+      "sha256": "d1d435c0a199e72a3850335986a0eb9dd0f738882892ff4f218e8b18e31d1176",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/images/v300-hero.webp",
+      "bytes": 182380,
+      "sha256": "bfdb4b2996b86c6f075688eaa6aedd9599ad2d81a9a9c2abb1381556affc560e",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/images/v300-lounge.webp",
+      "bytes": 98394,
+      "sha256": "f18a7ba090d5c7acd3608bceef85544a51020556188a7e91e77436e66a59b9d8",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/images/v300-luggage.webp",
+      "bytes": 285478,
+      "sha256": "88625067841f3e775953101d96e6bc466bc8f81475ac218736ed932dfe1338fc",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/source/client-photography/SOURCES.md",
+      "bytes": 771,
+      "sha256": "68bdba985e7c6dcb5d60abb57d4ff1286950a00acaf085d59a69a4405f9b89be",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/source/hotel-plates/SOURCES.md",
+      "bytes": 1048,
+      "sha256": "276afb405f7e5388c603089d3aaee5050ea41cd600c7e0b9da53350c58b0f2a5",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/source/location-plates/SOURCES.md",
+      "bytes": 3336,
+      "sha256": "7d84c28e53bb8e487478a416bfdff0b41daf6ad072dd10f9a7b01a0d50697a5d",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/video/hero-silk-route-premium-mobile-v13-portrait-web.mp4",
+      "bytes": 5513922,
+      "sha256": "009070be5dbd15472af989bf047fee41b50cd5172aa60cd4dad3022642d67396",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "assets/video/hero-silk-route-premium-v7-web.mp4",
+      "bytes": 14764953,
+      "sha256": "d68941921fb157277dc66ef75c8ff236474b0561e9795de7b37db9d008c9acf8",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "build/sites-vite-plugin.js",
+      "bytes": 858,
+      "sha256": "213fc950acf2897d35c50cf92e233a550481f38e1d5b610ee272008e5d5b0c1b",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "contact.html",
+      "bytes": 5533,
+      "sha256": "8adca6f82100942fbfeefc294a1d7e7168f86c491d73be2b871915638393ace0",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "cookies.html",
+      "bytes": 7788,
+      "sha256": "7ce81e0bbf33605dffffb4576bd8f728e1b4ee2b433a314009a63d187bf32630",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "handover/HOSTING_AND_ACCESS.md",
+      "bytes": 2830,
+      "sha256": "88b21fe71392ff678f943a04162c80d556c350845f62bbfba952ef9c2390346b",
+      "origin": "generated handover documentation"
+    },
+    {
+      "path": "handover/MEDIA.md",
+      "bytes": 2860,
+      "sha256": "c04dd4501aadfa126f8dc2866a430e03586b67e6e85f22c247d96e25f86b5947",
+      "origin": "generated handover documentation"
+    },
+    {
+      "path": "handover/SETUP.md",
+      "bytes": 3644,
+      "sha256": "5ba8048fb9211d730c92a7c798c643bbea7d297b39fe961c9319adc54e34f9b3",
+      "origin": "generated handover documentation"
+    },
+    {
+      "path": "handover/VALIDATION.md",
+      "bytes": 2206,
+      "sha256": "373120d4a7341558af6c42be110a9b845b60adad80006e06919020817c2e045d",
+      "origin": "generated handover documentation"
+    },
+    {
+      "path": "index.html",
+      "bytes": 21727,
+      "sha256": "41fb8eec880cff40d161596aba21652e67b61a911529c84d9a13f9c2b378c575",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "information-access.html",
+      "bytes": 7160,
+      "sha256": "a10ed7b945b8ba8f2d6dab312d78232a8fdea2b69690c33c7115b5117ec74bd8",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 1686,
+      "sha256": "faefc833f2946ff86688dee05a20c33be2e9ea86dff438d28e41e71b8fda8e93",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "media-credits.html",
+      "bytes": 4541,
+      "sha256": "ab04f7d24f0516facaad5502775b0e211fa10d7ccf058a7487118d1da8d06152",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 83829,
+      "sha256": "d53ba30cf4cf49d47ad5d3352710d9445d22fabe96d3b186c7a02fc595838191",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "package.json",
+      "bytes": 599,
+      "sha256": "64bf2d4e426aef1cd2db986fd5113cc86854ab7fb0d7aba36acaf4d37bdfef56",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "privacy.html",
+      "bytes": 10558,
+      "sha256": "20601d15d2a73234aa1d6a1b5812066c7549393b6a85379bfd22346031b08827",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "public/_headers",
+      "bytes": 222,
+      "sha256": "4cd22fc1c63aa850f9be09f32ccc53ece18ae44b1ee4258aa1d7ecbabe2d75cd",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "public/llms.txt",
+      "bytes": 1686,
+      "sha256": "faefc833f2946ff86688dee05a20c33be2e9ea86dff438d28e41e71b8fda8e93",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "public/og.png",
+      "bytes": 817608,
+      "sha256": "4dfbcabe3e0e0981ba66e527bd146778420d8b2f5dbd3a9a03bfe63f65d5a18c",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "public/robots.txt",
+      "bytes": 67,
+      "sha256": "9c86a63f74305ad59b83f60787d4aa68cfe1ab6844e168d0e3d42dd56810d790",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "public/silk-route-share-20260827.jpg",
+      "bytes": 78980,
+      "sha256": "5a43730004dfc2763e113dce5c17dddb3eef41fb7a2e202f83a3edf73e14acf0",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "bytes": 648,
+      "sha256": "d81c692c1e43bbd5e99b89bff73f211e6c9a8b0ef1c1816054c6a26933acd787",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "quote.html",
+      "bytes": 8986,
+      "sha256": "1ab93c7e104d49361b01601f93f15c88cfdf952795af46a191a5cd93ebb36418",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 67,
+      "sha256": "9c86a63f74305ad59b83f60787d4aa68cfe1ab6844e168d0e3d42dd56810d790",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/analytics.test.mjs",
+      "bytes": 3279,
+      "sha256": "1c4e262d6055274481d8eae67e1acde8e70c1ab8c96ce530ef7b5eae3fd46830",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-browser-720-hero-v6.ps1",
+      "bytes": 5446,
+      "sha256": "0864848b0827e3bf0e75af59168d2cf26abd1b85602f2e8ae6ad67435994fa6a",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-native-ai-hero-v5.ps1",
+      "bytes": 5295,
+      "sha256": "298fe1eefec7471a55717b11d5aa40b56ad76e85d9d8138152b4cebc1f84e9e9",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-photographer-cabin-scene.ps1",
+      "bytes": 7509,
+      "sha256": "b8a824f12023187e265b86fcf2a1ffb75912291ffbe9b82d9c765803a525b3cc",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-restored-cabin-hero-v7.ps1",
+      "bytes": 5750,
+      "sha256": "5b3f50a7aeb0359321e4d4a26d206483b9b76801fc660e1e0230cfd6359814d1",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-true-portrait-mobile-v10.ps1",
+      "bytes": 3504,
+      "sha256": "228732ab2946a3f652ab387f1e87854daf9b8b47e2b12b1f62bb753b6fdda8c8",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-true-portrait-mobile-v11.ps1",
+      "bytes": 4012,
+      "sha256": "cf25fed5ccaaa19ab3ee72003f84132bdfca0b4bc4444c054550ef014db77770",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-true-portrait-mobile-v12-safe-arrival.ps1",
+      "bytes": 4168,
+      "sha256": "38df7e514f6f175e158aafebf78cae066575190e1fae0281c4f1de9ea22b4222",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-true-portrait-mobile-v13-22s-cut.ps1",
+      "bytes": 4031,
+      "sha256": "504cd7aea79e007c6544f4827b13e1c7b1082794c78e92f04d21ff17d0e972a9",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/build-true-portrait-mobile-v9.ps1",
+      "bytes": 3551,
+      "sha256": "3b1eedb267a203b51dd0e1c2936af774876ff3cb5800dba505d6fd0e3b812af3",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/check-site.mjs",
+      "bytes": 23375,
+      "sha256": "10a981c18ef47633a2eecc58dcf1d52ab7616856780652b96ab6b922b8afeda7",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/clean-sites-build.mjs",
+      "bytes": 461,
+      "sha256": "d4ffa5629e7def73e79c85afab252c5095f123fc4d722eed07be54afde030a1a",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "scripts/prepare-sites-build.mjs",
+      "bytes": 4786,
+      "sha256": "d55cfc0acc1342c349ac23628a44e4e0995c648a1a8e6b6b2a49d5be3657d268",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "site.js",
+      "bytes": 39980,
+      "sha256": "3b4f2a284c2c7bfc719eed86f136aa00950bca0f30a381ee2f565762cd99eac8",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 648,
+      "sha256": "d81c692c1e43bbd5e99b89bff73f211e6c9a8b0ef1c1816054c6a26933acd787",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 60161,
+      "sha256": "f0fa604b9be5d1f25daeab24e40abf9437274b1f78ebdbf414bc505b40cf9a95",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "terms.html",
+      "bytes": 10279,
+      "sha256": "18e9f8ed11aa16c30005e361f87df8dcfc4e9f4b4309804246dfefe07fb4713b",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 771,
+      "sha256": "b491fc420265594aaaa5f3feb97e194936fd0eeb2f84ec27f46b2ce13cf8230e",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "vite.seedance.config.js",
+      "bytes": 925,
+      "sha256": "4d8ce8c4429f574be60ede8847d9663b2d42eac6e9f5acbfb850a75f298ac498",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "vite.sites.config.js",
+      "bytes": 1863,
+      "sha256": "bea1bff3dfd38970a326b6d5f7d05ffd3d98933bac3fbdf060e1cf15665fe8a8",
+      "origin": "unchanged project file"
+    },
+    {
+      "path": "worker/sites-static.js",
+      "bytes": 11067,
+      "sha256": "684e4f15377a93c8be13de5263c29b5b147f13416d48a014e7971e3e33e5d730",
+      "origin": "unchanged project file"
+    }
+  ]
+}

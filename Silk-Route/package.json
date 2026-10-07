@@ -1,0 +1,19 @@
+{
+  "name": "silk-route-luxury-chauffeur",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:seedance": "vite --config vite.seedance.config.js",
+    "build": "vite build",
+    "build:sites": "node scripts/clean-sites-build.mjs && vite build --config vite.sites.config.js && node scripts/prepare-sites-build.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/check-site.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.37.1",
+    "vite": "^7.1.1",
+    "wrangler": "^4.92.0"
+  }
+}
