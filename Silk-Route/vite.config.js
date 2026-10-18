@@ -14,9 +14,9 @@ export default defineConfig({
         informationAccess: resolve(import.meta.dirname, 'information-access.html'),
         accessibility: resolve(import.meta.dirname, 'accessibility.html'),
         mediaCredits: resolve(import.meta.dirname, 'media-credits.html'),
-        blogAirportTransfers: resolve(import.meta.dirname, 'blog/airport-transfers-cape-town.html'),
-        blogExecutiveChauffeur: resolve(import.meta.dirname, 'blog/executive-chauffeur-cape-town.html'),
-        blogDinnerEvents: resolve(import.meta.dirname, 'blog/dinner-events-chauffeur-cape-town.html')
+        blogAirportTransfers: resolve(import.meta.dirname, 'blog/luxury-airport-transfers-cape-town.html'),
+        blogExecutiveChauffeur: resolve(import.meta.dirname, 'blog/private-chauffeur-hire-cape-town.html'),
+        blogDinnerEvents: resolve(import.meta.dirname, 'blog/luxury-event-transport-cape-town.html')
       }
     }
   }
